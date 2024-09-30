@@ -1,0 +1,20 @@
+body {
+  background-color: lightblue;
+}
+p {
+  color: orange;
+}
+.purpleText {
+  color: purple;
+  font-size: 18pt;
+  font-weight: bold;
+}
+#myFirstID{
+  COLOR: red;
+}
+.italicText {
+  font-style: italic;
+}
+.fontChange {
+  font-family: Calibri,serif;
+}
