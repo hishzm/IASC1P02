@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+
+.box {
+    padding: 20px;
+}
+
+.first-box {
+    background-color: green;
+    border: 3px dashed black;
+    padding: 20px;
+    width: 1500px;
+    margin-bottom: 25px;
+}
+
+.red-text {
+    color: red;
+    font-size: 14px;
+}
+
+.green-text {
+    color: darkgreen;
+    font-size: 14px;
+}
+
+.second-box {
+    color: purple;
+    font-size: 14px;
+}

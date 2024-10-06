@@ -1,0 +1,30 @@
+body {
+    background-color: blue;
+}
+
+.group {
+    border: 3px solid black;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.text {
+    color: red;
+    border: 1px dashed green;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+}
+
+img {
+
+    left: 10px;
+    bottom: 10px;
+    width: 300px;
+    height: 150px;
+    margin-top: 145px;
+    border: 1px dashed white;
+}

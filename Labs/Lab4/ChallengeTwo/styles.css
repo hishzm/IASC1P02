@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    border: 2px dotted purple;
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    color: black;
+    font-size: 12px;
+}
+
+.text {
+    margin: 20px;
+}
+
+.large-text {
+    font-size: 36px;
+    color: orange;
+}
+
+.red-text {
+    color: red;
+}
+
+.small-text {
+    font-size: 12px;
+    color: green;
+    text-align: center;
+}
+
+.bottom-text {
+    font-size: 10px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.blue-text {
+    color: yellow;
+}
