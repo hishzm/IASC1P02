@@ -1,0 +1,81 @@
+.greenText {
+  color: green;
+}
+
+.fontSize {
+  font-size: 25pt;
+}
+
+.fontText {
+    font-family: Impact,serif;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.relativePosition {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  background-color: lightgray;
+  margin: 20px 0;
+}
+
+.absolutePosition {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.fixedPosition {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+
+.outer p {
+  color: blue;
+  font-size: 16px;
+}
+
+.outer .inner p {
+  color: green;
+  font-size: 14px;
+}
+
+p.grouped, h3.grouped, div.grouped {
+  color: darkgreen;
+  background-color: orange;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.boxPart {
+  color: yellow;
+  width: 300px;
+  padding: 20px;
+  border: 10px solid black;
+  margin: 30px;
+  background-color: darkblue;
+}
