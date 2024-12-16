@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Wraps - Premium Vehicle Detailing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Detailed Wraps</div>
+        <div class="site-title">DETAILED WRAPS</div>
+        <nav>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero">
+            <div class="content-box">
+                <h2>Welcome To<br><span>Detailed Wraps</span></h2>
+                <p>Your mobile destination for transforming your vehicle.<br>
+                    Unmatched precision and care, anywhere you are.<br> Let’s make your ride unforgettable.</p>
+                <button class="cta-btn" id="book-btn">Book Appointment</button>
+            </div>
+            <div class="image-box">
+                <img src="https://via.placeholder.com/400x250" alt="Premium Car Image">
+            </div>
+        </section>
+        <div class="dots">...</div>
+    </main>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="booking-content">
+            <h2>Book Your Appointment</h2>
+            <p>Transform your ride with our premium services. <br> Full wraps, ceramic coating, and seat protection - delivered to you!</p>
+            <button class="cta-btn" id="book-now">Book Now</button>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById("book-btn").addEventListener("click", function() {
+            document.querySelector(".booking-section").scrollIntoView({ behavior: "smooth" });
+        });
+
+        document.getElementById("book-now").addEventListener("click", function() {
+            alert("Booking feature coming soon! 🚗✨");
+        });
+    </script>
+</body>
+</html>
